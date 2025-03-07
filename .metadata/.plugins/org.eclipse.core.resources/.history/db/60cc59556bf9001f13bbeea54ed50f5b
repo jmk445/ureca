@@ -1,0 +1,54 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class Test1 {
+
+	public static void main(String[] args) throws Exception{
+		// MySQL에 접근하기 위해 필요한 3가지
+		String url = "jdbc:mysql://localhost:3306/madangdb";
+		String user = "root";
+		String pwd = "root";
+		
+		//mysql connector / com.mysql.cj.jdbc.Driver.class 에 대한 텟트(DriverManager에 자동 등록)
+//		Class.forName("com.mysql.cj.jdbc.Driver"); //driver가 정상적으로 메인에서 가져올 수 있는지
+		//정상적으로 종료되면 드라이버가 정상적으로 가져오게 된것.
+		
+		// JDBC드라이버 객체를 DriverManager에 등록 단계 필요 <= 버젼이 올라가면서 자동으로 처리 됨
+		//Connection 객체
+		Connection con = DriverManager.getConnection(url,user,pwd);
+		//이제 여기서 db연결 까지 된 것.
+		
+		
+		//Statement (sql 전달 객체 )
+		Statement stmt = con.createStatement();
+		//ctrl shift o 로 할때, java.mysql.statement를 잘 import
+		
+		
+		//insert 
+//		{
+//			String insertSQL = "insert into customer values(6, '손흥민', 'gaegeum', '010-1234-5678');"; //''를 무조건 해야한다.
+//			int ret = stmt.executeUpdate(insertSQL); //등록 수정 삭제 모두 이 구문을 사용한다.
+//			//return은 마우스 올려서 확인
+//		}
+		
+		//한번더 insert하면 그 유명한 dup이난다. (듑)
+		
+		
+		//insert 
+		{
+			String updateSQL = "update customer set address = '대한민국 부산' where custid = 6;"; //''를 무조건 해야한다.
+			int ret = stmt.executeUpdate(updateSQL); //등록 수정 삭제 모두 이 구문을 사용한다.
+			//return은 마우스 올려서 확인
+		}
+		
+		
+		
+		con.close(); //이걸 안하면 타임아웃 돼서 끝나는데 이걸로 일부러 꺼준다.
+		
+		
+	}
+
+}

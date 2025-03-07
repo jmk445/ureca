@@ -1,0 +1,36 @@
+package app.phone.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import app.phone.common.DBManager;
+import app.phone.dto.Phone;
+
+public class PhoneDao {
+	public int insertPhone(Phone phone) {
+		int ret = -1;
+		String sql = "insert into customer values( ? , ?)";
+		
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		
+		try {
+			con = DBManager.getConnection();
+			pstmt = con.prepareStatement(sql);
+			
+			pstmt.setInt(1, phone.getPhoneId());
+			pstmt.setString(2, phone.getPhoneName());
+			
+			ret = pstmt.executeUpdate();
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}finally {
+			DBManager.releaseConnection(pstmt, con);
+		}
+		
+		return ret;
+	}
+	
+	
+}

@@ -1,0 +1,60 @@
+package app.phone.ui;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.print.Book;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.table.DefaultTableModel;
+
+public class PhoneDetailDialog extends JDialog {
+    setTitle("장바구니");
+    setSize(400, 300);
+    setLayout(new BorderLayout());
+    setLocationRelativeTo(parent);
+
+    // 장바구니 전용 TableModel (재고 → 수량)
+    cartTableModel = new DefaultTableModel(new Object[]{"휴대폰 이름", "가격", "제조사", "수량"}, 0) {
+        @Override
+        public boolean isCellEditable(int row, int column) {
+            return false; // 모든 셀을 수정 불가능하게 설정
+        }
+    };
+
+    table = new JTable(cartTableModel);
+    table.setFillsViewportHeight(true);
+
+    // 스크롤 가능하게 만들기
+    JScrollPane scrollPane = new JScrollPane(table);
+    add(scrollPane, BorderLayout.CENTER);
+
+    listPhonesInCart();
+
+    // 버튼 패널 추가
+    JPanel buttonPanel = new JPanel();
+    buyButton = new JButton("구매하기");
+    buttonPanel.add(buyButton);
+    add(buttonPanel, BorderLayout.SOUTH);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

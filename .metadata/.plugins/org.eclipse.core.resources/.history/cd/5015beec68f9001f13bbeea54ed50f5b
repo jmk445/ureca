@@ -1,0 +1,17 @@
+package jdbc;
+
+public class Test1 {
+
+	public static void main(String[] args) throws Exception{
+		// MySQL에 접근하기 위해 필요한 3가지
+		String url = "jdbc:mysql://localhost:3306/madang";
+		String user = "root";
+		String pwd = "root";
+		
+		//mysql connector / com.mysql.cj.jdbc.Driver.class 에 대한 텟트(DriverManager에 자동 등록)
+		Class.forName("com.mysql.cj.jdbc.Driver"); //driver가 정상적으로 메인에서 가져올 수 있는지
+		
+		
+	}
+
+}

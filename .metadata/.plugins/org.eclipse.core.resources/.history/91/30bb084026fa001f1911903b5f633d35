@@ -1,0 +1,5 @@
+package app.phone.common;
+
+public class DBManager {
+
+}

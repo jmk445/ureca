@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\project\ureca\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3436557224.index
+89686527.index
+2054829181.index
+2015596502.index
+2920634722.index
+3009054434.index
+2303640895.index
