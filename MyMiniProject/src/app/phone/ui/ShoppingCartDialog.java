@@ -10,13 +10,17 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
+import app.phone.dao.OrderDao;
 import app.phone.dao.ShoppingCartDao;
 import app.phone.dto.Phone;
+
+
 public class ShoppingCartDialog extends JDialog {
     private JTable table;
     private DefaultTableModel cartTableModel;
     private JButton buyButton;
     private ShoppingCartDao cartDao = new ShoppingCartDao();
+    private OrderDao orderDao = new OrderDao();
 
     public ShoppingCartDialog(MallManager parent) {
         setTitle("장바구니");
@@ -85,6 +89,8 @@ public class ShoppingCartDialog extends JDialog {
         JOptionPane.showMessageDialog(this, "구매가 완료되었습니다!", "구매 성공", JOptionPane.INFORMATION_MESSAGE);
         
         parent.listPhone();
+        
+        orderDao.insertOrder(1,phoneList);
     }
 
     public void listPhonesInCart() {

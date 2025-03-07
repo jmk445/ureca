@@ -1,0 +1,5 @@
+package app.phone.dto;
+
+public class Order {
+
+}

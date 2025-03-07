@@ -28,8 +28,9 @@ public class MallManager extends JFrame {
     private DefaultTableModel tableModel;
     private JButton shoppingCartButton;
     private JButton userChangeButton;
+    private JButton adminPageButton; // 관리자 페이지 버튼 추가
     private PhoneDao phoneDao = new PhoneDao();
-    private ShoppingCartDao cartDao = new ShoppingCartDao();
+    private ShoppingCartDao cartDao = new ShoppingCartDao();    
     private List<Phone> phoneList;
     
     public MallManager() {
@@ -39,7 +40,7 @@ public class MallManager extends JFrame {
         setLocationRelativeTo(null);
 
         // 테이블 모델 생성 (버튼을 추가할 "액션1", "액션2" 컬럼 포함)
-        tableModel = new DefaultTableModel(new Object[]{"모델명", "가격(원)", "제조사", "재고", "장바구니", "자세히"}, 0) {
+        tableModel = new DefaultTableModel(new Object[]{"모델명", "가격(원)", "제조사", "재고", "장바구니"}, 0) {
             @Override
             public boolean isCellEditable(int row, int column) {
                 return column == 4 || column == 5; // "액션1", "액션2" 열만 수정 가능 (버튼 클릭)
@@ -48,20 +49,22 @@ public class MallManager extends JFrame {
 
         table = new JTable(tableModel);
         
-
         table.getColumn("장바구니").setCellRenderer(new ButtonRenderer("장바구니"));
         table.getColumn("장바구니").setCellEditor(new ButtonEditor(new JButton("장바구니"), "장바구니"));
 
-        table.getColumn("자세히").setCellRenderer(new ButtonRenderer("자세히 보기"));
-        table.getColumn("자세히").setCellEditor(new ButtonEditor(new JButton("자세히 보기"), "자세히 보기"));
+//        table.getColumn("자세히 보기").setCellRenderer(new ButtonRenderer("자세히 보기"));
+//        table.getColumn("자세히 보기").setCellEditor(new ButtonEditor(new JButton("자세히 보기"), "자세히 보기"));
 
         listPhone();
-        userChangeButton = new JButton("사용자 변경");
+//        userChangeButton = new JButton("사용자 변경");
         shoppingCartButton = new JButton("장바구니 보기");
+        adminPageButton = new JButton("관리자페이지로 이동"); // 관리자 페이지 버튼 추가
+
         JPanel bottomPanel = new JPanel();
-        bottomPanel.add(userChangeButton);
-        bottomPanel.add(shoppingCartButton);
         
+        bottomPanel.add(shoppingCartButton);
+        bottomPanel.add(adminPageButton); // 버튼 추가
+
         setLayout(new BorderLayout());
         add(new JScrollPane(table), BorderLayout.CENTER);
         add(bottomPanel, BorderLayout.SOUTH);
@@ -69,6 +72,12 @@ public class MallManager extends JFrame {
         shoppingCartButton.addActionListener(e -> {
             ShoppingCartDialog cartDialog = new ShoppingCartDialog(this);
             cartDialog.setVisible(true);
+        });
+
+        // 관리자 페이지 버튼 클릭 이벤트 처리
+        adminPageButton.addActionListener(e -> {
+            AdminDialog adminDialog = new AdminDialog(this);
+            adminDialog.setVisible(true);
         });
     }
 
@@ -80,15 +89,14 @@ public class MallManager extends JFrame {
         clearTable();
         phoneList = phoneDao.listPhone(); // phoneList 저장
 
-
         for (Phone phone : phoneList) {
             tableModel.addRow(new Object[]{
                 phone.getPhoneName(),
                 phone.getPhoneprice(),
                 phone.getPhonemaker(),
                 phone.getPhoneremain(),
-                "장바구니", 
-                "자세히 보기" 
+                "장바구니 담기", 
+                
             });
         }
     }
@@ -141,14 +149,14 @@ public class MallManager extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             System.out.println("선택된 행: " + selectedRow + "의 '" + label + "' 버튼 클릭됨!");
-
-            if (label.equals("자세히 보기")) {
-                JOptionPane.showMessageDialog(null, 
-                        "서비스 준비 중입니다.", 
-                        "죄송합니다.", 
-                        JOptionPane.WARNING_MESSAGE);
-            } 
-            else if (label.equals("장바구니")) {
+//
+//            if (label.equals("자세히 보기")) {
+//                JOptionPane.showMessageDialog(null, 
+//                        "서비스 준비 중입니다.", 
+//                        "죄송합니다.", 
+//                        JOptionPane.WARNING_MESSAGE);
+//            } 
+            if (label.equals("장바구니 담기")) {
                 int phoneId = phoneList.get(selectedRow).getPhoneId(); // phone ID 가져오기
                 JOptionPane.showMessageDialog(null, 
                         "장바구니에 추가되었습니다.", 
@@ -165,6 +173,3 @@ public class MallManager extends JFrame {
     	int infectedRow = cartDao.addToCart(shoppingCartId, phoneId);    	
     }
 }
-
-
-

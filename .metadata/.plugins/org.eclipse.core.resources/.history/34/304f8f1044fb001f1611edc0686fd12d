@@ -1,0 +1,129 @@
+import javax.swing.*;
+import javax.swing.table.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class AdminDialog extends JDialog {
+
+    private JTable orderTable;
+    private DefaultTableModel orderTableModel;
+    private List<Order> orderList;
+
+    public AdminDialog(MallManager parent) {
+        super(parent, "관리자 페이지", true);
+        setSize(700, 500);
+        setLocationRelativeTo(parent);
+
+        // 주문 기록 테이블
+        orderTableModel = new DefaultTableModel(new Object[]{"주문자", "주문 시간", "주문 휴대폰", "상세 보기"}, 0) {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false; // 편집 불가
+            }
+        };
+        orderTable = new JTable(orderTableModel);
+        listOrders(); // 주문 목록 불러오기
+
+        // 버튼 추가를 위한 셀 렌더러 설정
+        orderTable.getColumn("상세 보기").setCellRenderer(new ButtonRenderer());
+        orderTable.getColumn("상세 보기").setCellEditor(new ButtonEditor(new JCheckBox()));
+
+        // 레이아웃 설정
+        JScrollPane scrollPane = new JScrollPane(orderTable);
+        add(scrollPane, BorderLayout.CENTER);
+    }
+
+    private void listOrders() {
+        orderTableModel.setRowCount(0);
+        // orderList = orderDao.listOrders(); // 실제 주문 목록 불러오기
+
+        // 예시 데이터 추가
+        orderList = List.of(
+                new Order("홍길동", "2025-03-07 12:00", "아이폰 12"),
+                new Order("김철수", "2025-03-07 13:00", "갤럭시 S21")
+        );
+
+        for (Order order : orderList) {
+            orderTableModel.addRow(new Object[]{
+                    order.getCustomerName(),
+                    order.getOrderTime(),
+                    order.getPhoneName(),
+                    "주문한 휴대폰 보기"  // 버튼 텍스트
+            });
+        }
+    }
+
+    // 버튼 클릭 시 실행할 함수 틀 (현재는 로그를 찍는 것으로 설정)
+    private void showOrderDetails(int row) {
+        if (row >= 0) {
+            Order order = orderList.get(row);
+            System.out.println("주문한 휴대폰: " + order.getPhoneName());
+            // 여기에 추가적인 동작을 넣을 수 있음 (예: 상세보기 창 열기)
+        }
+    }
+
+    // 버튼을 테이블에 표시하는 렌더러
+    class ButtonRenderer extends JButton implements TableCellRenderer {
+        public ButtonRenderer() {
+            setOpaque(true);
+        }
+
+        @Override
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+            setText((value == null) ? "" : value.toString());
+            return this;
+        }
+    }
+
+    // 버튼 클릭 시 실행되는 에디터
+    class ButtonEditor extends DefaultCellEditor {
+        protected JButton button;
+        private int selectedRow;
+
+        public ButtonEditor(JCheckBox checkBox) {
+            super(checkBox);
+            button = new JButton();
+            button.setOpaque(true);
+
+            button.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    selectedRow = orderTable.getSelectedRow(); // 선택된 행을 가져옴
+                    showOrderDetails(selectedRow); // 버튼 클릭 시 실행될 함수 호출
+                }
+            });
+        }
+
+        @Override
+        public Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected, int row, int column) {
+            button.setText("주문한 휴대폰 보기");
+            return button;
+        }
+    }
+
+    // 예시용 Order 클래스 (실제 구현에서는 실제 Order 클래스가 필요함)
+    public static class Order {
+        private String customerName;
+        private String orderTime;
+        private String phoneName;
+
+        public Order(String customerName, String orderTime, String phoneName) {
+            this.customerName = customerName;
+            this.orderTime = orderTime;
+            this.phoneName = phoneName;
+        }
+
+        public String getCustomerName() {
+            return customerName;
+        }
+
+        public String getOrderTime() {
+            return orderTime;
+        }
+
+        public String getPhoneName() {
+            return phoneName;
+        }
+    }
+}

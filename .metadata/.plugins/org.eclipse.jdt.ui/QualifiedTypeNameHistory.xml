@@ -28,4 +28,6 @@
     <fullyQualifiedTypeName name="app.phone.common.DBManager"/>
     <fullyQualifiedTypeName name="app.phone.dao.ShoppingCartDao"/>
     <fullyQualifiedTypeName name="app.phone.dao.PhoneDao"/>
+    <fullyQualifiedTypeName name="app.phone.dto.Order"/>
+    <fullyQualifiedTypeName name="app.phone.ui.AdminDialog"/>
 </qualifiedTypeNameHistroy>

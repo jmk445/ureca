@@ -1,0 +1,5 @@
+package app.phone.ui;
+
+public class OrderedPhonesDialog {
+
+}

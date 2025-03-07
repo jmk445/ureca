@@ -10,8 +10,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="detail"/>
+		<item key="selection" value="Panel"/>
 		<list key="findhistory">
+			<item value="panel"/>
+			<item value="액션"/>
+			<item value="Editing"/>
 			<item value="detail"/>
 			<item value="Phone"/>
 			<item value="Book"/>

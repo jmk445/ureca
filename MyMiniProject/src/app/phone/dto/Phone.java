@@ -17,6 +17,14 @@ public class Phone {
 		this.phoneId = phoneId;
 		this.phoneName = phoneName;
 	}
+	
+	public Phone(String name, int price, String maker, int remain) {
+		
+		this.phoneName = name;
+		this.phoneprice = price;
+		this.phonemaker = maker;
+		this.phoneremain = remain;
+	}
 
 	public int getPhoneId() {
 		return phoneId;
