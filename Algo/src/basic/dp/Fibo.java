@@ -2,7 +2,7 @@ package basic.dp;
 import java.util.Iterator;
 
 public class Fibo {
-
+	
 	public static void main(String[] args) {
 		// #1. 단순 재귀 호출
 //		System.out.println( fibo_rc(50) ); // 오래  걸린다.
@@ -15,7 +15,7 @@ public class Fibo {
 		// #3. dp ( 점화식 + 메모이제이션 )
 		System.out.println( fibo_dp(50) );
 	}
-
+	
 	static long fibo_rc(int n) {
 		if( n == 1 || n == 2 ) return 1;
 		return fibo_rc(n-1) + fibo_rc(n-2);

@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 
 import app.phone.common.DBManager;
-import app.phone.dto.CustomerDao;
 import app.phone.dto.Order;
 import app.phone.dto.Phone;
 

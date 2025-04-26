@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5조 메인 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* text-align: center; */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 20px;
+            /* background-color: #007bff; */
+            color: black;
+            text-decoration: none;
+            /* border-radius: 5px; */
+            font-size: 1em;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .button:hover {
+            background-color: #a8c8eb;
+        }
+        .apply-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            /* background-color: #28a745; */
+            font-size: 1.2em;
+        }
+        .apply-button:hover {
+            background-color: #6ec481;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>5조</h1>
+        <p class="description">유레카! 안녕 우린 5조야</p>
+        <div class="button-container">
+            <a href="/seokjun/mainpage.html" class="button">홍석준</a>
+            <a href="/boin/index.html" class="button">서보인</a>
+            <a href="https://example.com/page3" class="button">신승우</a>
+            <a href="jeongmin/main.html" class="button">김정민</a>
+            <a href="/doyeon/index.html" class="button">이도연</a>
+            <a href="https://example.com/page6" class="button">이종규</a>
+        </div>
+        <a href="/apply.html" class="button apply-button">신청하기</a>
+    </div>
+</body>
+</html>

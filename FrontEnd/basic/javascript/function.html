@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        // function 선언 방법
+        // #1. 일반적인 방법
+        function add_1( a, b ){
+            return a + b;
+        }
+        console.log(1, add_1( 10, 20 ) );
+        // #2. 변수 선언 및 할당
+        const add_2 = function( a, b ){
+            return a + b;
+        }
+        console.log(2, add_2( 10, 20 ) );
+        
+        // #3. new Function ( 잘 사용 X )
+        const add_3 = new Function("a", "b", "return a + b");
+        console.log(3, add_3( 10, 20 ) );
+        // function 활용 방법
+        // #1. parameter 로
+        function calc( a, b, func ){
+            return func( a, b );
+        }
+        
+        console.log(4, calc( 10, 20, add_2 ))
+        // #2. returrn 으로
+        function calc_2(){
+            const add_4 = function( a, b ){
+                return a + b;
+            }
+            return add_4;
+        }
+        const myFunc = calc_2(); // return 결과가 function (add_4)
+        console.log(5, myFunc(10, 20));
+        // 일급 객체 ( first class object )
+        // 1. variable
+        // 2. parameter
+        // 3. return
+        // javascript function 은 일급객체이다.
+        // arrow function
+        let print = ( a ) => console.log( a ); // let print = a => console.log( a ) // 파라미터가 한 개 일때 () 생략 가능
+        print(1);
+        print("hello");
+        let print_2 = () => console.log( "default" );
+        print_2();
+        let print_3 = ( a, b ) => {
+            console.log( a, b, a + b);
+        }
+        print_3( 10,  20 );
+        // arrow function vs normal function
+        // arrow function 은 this 를 function scope 로 가져가지 않는다. ( arrow function 은 functional programming 을 위해 탄생, )
+        let num = 10;
+        const obj = {
+            num: 5,
+            func_1: function(){
+                console.log(this.num); // 5
+                console.log(num); // 10
+            },
+            func_2: () => {
+                console.log(this); // this ?? 현재 scope 의 상위 객체 Window
+                console.log(this.num); // undefined
+                console.log(num); // 10
+            }
+        }
+        obj.func_1();
+        obj.func_2();
+    </script>
+</body>
+</html>

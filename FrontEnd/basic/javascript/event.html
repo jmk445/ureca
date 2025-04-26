@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    
+    <div id="container">
+        <h4 id="title">제목입니다.</h4>
+        <p id = "content">내용입니다.</p>
+        <hr>
+        <button onclick = "func_1();">제목변경</button> <!--#1. inline 방식 event handler-->
+        <button id = "btn_2">내용변경</button>
+        <button id = "btn_3">테두리변경</button>
+    </div>
+    
+    <script>
+
+        //div#container -> 자동완성
+        //div.conatiner -> 자동완성
+        //event 가 발생한 element
+        //발생한 event 종류
+        //발생한 event에 대한 처리자 
+
+        function func_1(){
+            // alert(1);
+            document.querySelector("#title").innerText = "제목이 변경되었습니다."
+        }
+
+
+        // #2 event handler 등록 on ~~
+        // doucument.getElemetntById("btn_2") //dom 객체에 접근하는 old
+        document.querySelector("#btn_2").onmouseover = function(){
+            // alert(2);
+            document.querySelector("#btn_2").innerText = "내용이 변경되었습니다.";
+        }
+
+        // #2 event handler 등록 addEventListener ~~        
+        document.querySelector("#btn_3").addEventListener("click", function(){
+            // alert(3);
+            document.querySelector("#container").style.border = "1px solid blue";
+        });
+
+    </script>
+
+</body>
+</html>

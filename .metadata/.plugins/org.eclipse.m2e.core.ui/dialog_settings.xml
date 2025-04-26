@@ -2,6 +2,21 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\project\ureca\MyminiProjectJPA"/>
+			<item value="C:\project\ureca\miniproject_day1"/>
+			<item value="C:\project\ureca\JPABasic_12_JPQL_NPlus1"/>
+			<item value="C:\project\ureca\JPABasic_9_ManyToOne_OneToMany_BI\src\main\java\Test2.java"/>
+			<item value="C:\project\ureca\JPABasic_6__OneToOne_BI"/>
+			<item value="C:\project\ureca\JPABasic_6_OneToOne_UNI"/>
+			<item value="C:\project\ureca\JPABasic_5"/>
+			<item value="C:\project\ureca\JPABasic_1"/>
+			<item value="C:\project\ureca\MyminiProjectMybatis"/>
+			<item value="C:\project\ureca\Algo"/>
+			<item value="C:\project\ureca\JPABasic_3\src\main\java\Config\MyPersistenceUnitInfo.java"/>
+			<item value="C:\project\ureca\JPABasic_2\src\main\java\Test.java"/>
+			<item value="C:\project\ureca"/>
+			<item value="C:\project\ureca\MyMiniProject"/>
+			<item value="C:\project\ureca\myBatisTest\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,6 +28,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -43,10 +59,37 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="JPABasic"/>
+			<item value="MyJPABasic"/>
+			<item value="jpa_basic"/>
 		</list>
 		<list key="name">
+			<item value="JPABasic_13_Criteria_QueryDSL"/>
+			<item value="JPABasic_BookManager"/>
+			<item value="JPABasic_12_JPQL_Named_Native"/>
+			<item value="JPABasic_12_JPQL_JOIN_Subquery"/>
+			<item value="JPABasic_JPQL_NPlus1"/>
+			<item value="JPABasic_12_JPQL_SELECT"/>
+			<item value="JPABasic_10_ManyToMany"/>
+			<item value="JPABasic_9_ManyToOne_OneToMany_BI"/>
+			<item value="JPABasic_8_OneToMany"/>
+			<item value="MyJPABasic_1"/>
+			<item value="JPABasic_7_ManyToOne"/>
+			<item value="JPABasic_6__OneToOne_BI"/>
 		</list>
 		<list key="artifactId">
+			<item value="JPABasic_13_Criteria_QueryDSL"/>
+			<item value="JPABasic_BookManager"/>
+			<item value="JPABasic_12_JPQL_Named_Native"/>
+			<item value="JPABasic_12_JPQL_JOIN_Subquery"/>
+			<item value="JPABasic_JPQL_NPlus1"/>
+			<item value="JPABasic_12_JPQL_SELECT"/>
+			<item value="JPABasic_10_ManyToMany"/>
+			<item value="JPABasic_9_ManyToOne_OneToMany_BI"/>
+			<item value="JPABasic_8_OneToMany"/>
+			<item value="MyJPABasic_1"/>
+			<item value="JPABasic_7_ManyToOne"/>
+			<item value="JPABasic_6__OneToOne_BI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -59,5 +102,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--구조 부분에 추가 -->
+    <form id="languageForm" action="">        
+        <label for="languageName">구현 가능한 언어를 입력</label><br />
+        <input id="languageName" type="text" />
+        <label>수준 :</label>
+        <input id="top" type="radio" name="ability" value="상" /><label for="top">상</label>
+        <input id="middle" type="radio" name="ability" value="중" checked /><label for="middle">중</label>      
+        <input id="bottom" type="radio" name="ability" value="하" /><label for="bottom">하</label>
+    </form>
+    <input id="btnLanguage" type="button" value="입력" />
+    
+    <div id="inputLanguagesResults">        
+    </div>
+
+
+<!--script부분에 추가-->
+    
+    <script>
+        window.onload = function() {            
+            document.querySelector("#btnLanguage").onclick = function() {  
+                let language = document.querySelector("#languageName").value;
+                let ability = document.querySelector("input[name='ability']:checked").value;
+                
+                document.querySelector("#inputLanguagesResults").innerHTML = `언어: ${language} , 수준: ${ability}`;
+            }
+        }
+    </script>
+
+
+</body>
+</html>
