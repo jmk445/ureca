@@ -27,7 +27,7 @@ public class Array1 {
 //			}
 //			System.out.println(wrongCnt);
 //			
-//			//강사님 풀이 
+//			//강사님 풀이
 //			int center = charArray.length/2;
 //			for(int l = 0, r = charArray.length -1 ; l < center ; l++, r++) {
 //				if(charArray[l] != charArray[r]) {

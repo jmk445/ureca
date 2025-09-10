@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c98b75a-9935-45db-b350-a8ce49d3c05d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Algo/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Algo/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DesignPatterns/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaBasic/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaBasic/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMiniProject/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/MyMiniProject/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.search.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Array1.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Array2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ArraySortTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BasicComb.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BasicComb_np.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BasicPerm.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BasicSubsetBinaryCounting.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BasicSubsetBitMasking.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BinaryTreeSearch.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BookManager (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BookManager.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/BufferedReaderTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DFS_BFS_Test2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DelatTest1.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/DelatTest2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Dijkstra2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Dijkstra3.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Fibo.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Kruskal.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/MallManager.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1010.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1011.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1074.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1074_DS.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1074_DS2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1074_DS3.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1149.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P14502.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P14502_DS.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1600.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P16236.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1654.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P17135.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P17471.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P17471_DS.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1915.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1987.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P1987_SB.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P2447.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P2447_2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P2493.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P2839.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P2839_DS.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P5639.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/P7576.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/ScannerTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Star1.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Star2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (10).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (11).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (12).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (13).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (14).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (15).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (16).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (2).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (3).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (4).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (5).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (6).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (7).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (8).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test (9).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test1 (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test1.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test2 (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test2 (2).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test3 (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test3 (2).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test3.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test4 (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Test4.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/TestPQ.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/UnionFind.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2015596502.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2303640895.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2920634722.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3009054434.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3436557224.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/89686527.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/1/4/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/1/4/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/2/8/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/2/8/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/3/10/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/3/10/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/6/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/6/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/7/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/7/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/8/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/8/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/9/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Algo/2025/2/9/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/DesignPatterns/2025/2/6/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/DesignPatterns/2025/2/6/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/JavaBasic/2025/1/4/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/JavaBasic/2025/1/4/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/JavaBasic/2025/2/6/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/JavaBasic/2025/2/6/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/MyMiniProject/2025/3/10/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/MyMiniProject/2025/3/10/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/archetypesInfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.search/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/array/Array1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/array/Array1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/array/Array2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/array/Array2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/array/workshop/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/array/workshop/CircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/array/workshop/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/array/workshop/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_ArrayList_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_ArrayList_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/bfsdfs/DFS_BFS_Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/binarySearch_practice/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/binarySearch_practice/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/comb/BasicComb.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/comb/BasicComb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/comb/BasicComb_np.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/comb/BasicComb_np.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/delta/DelatTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/delta/DelatTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/delta/DelatTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/delta/DelatTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/dp/Apartment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/dp/Apartment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/dp/Fibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/dp/Fibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/dp/Stirck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/dp/Stirck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra2$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra2$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra3$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra3$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Dijkstra3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Kruskal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Kruskal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim2$Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim2$Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/Prim2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/graph/UnionFind2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/graph/UnionFind2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/input/BufferedReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/input/BufferedReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/input/ScannerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/input/ScannerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPermBitMasking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPermBitMasking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPerm_np.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/perm/BasicPerm_np.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/recursive/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/recursive/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/recursive/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/recursive/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest$Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/sort/ArraySortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/sort/CollectionSortTeset$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/sort/CollectionSortTeset$Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/sort/CollectionSortTeset.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/sort/CollectionSortTeset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test3$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test3$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/Test4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/TestPQ$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/TestPQ$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/TestPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/stackqueue/TestPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/star/Star1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/star/Star1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/star/Star2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/star/Star2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubsetBinaryCounting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubsetBinaryCounting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubsetBitMasking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/subset/BasicSubsetBitMasking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/tree/BinaryTreeSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/tree/BinaryTreeSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/basic/workshop/P1010.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/basic/workshop/P1010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P1074/P1074_DS3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P5639.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P5639.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/P5639_2nd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/P5639_2nd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1149_rgb거리_dp/P1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1149_rgb거리_dp/P1149.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1149_rgb거리_dp/P1149_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1149_rgb거리_dp/P1149_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1260/P1260_adjList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1260/P1260_adjList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1260/P1260_adjMat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1260/P1260_adjMat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS2$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS2$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14502_연구실_조합bfs/P14502_DS2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14503/P14503$Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14503/P14503$Robot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p14503/P14503.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p14503/P14503.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_DS$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_DS$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_gpt$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_gpt$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_gpt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1600_원숭이말_bfs/P1600_gpt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_DS$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_DS$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_SB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p16236_아기상어_시뮬/P16236_SB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1654/P1654.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1654/P1654.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1654/P1654Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1654/P1654Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/BJ_파이프옮기기1_1707.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/BJ_파이프옮기기1_1707.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/BJ_파이프옮기기1_1707_DP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/BJ_파이프옮기기1_1707_DP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070$Pipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070$Pipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17070_파이프옮기기_dp완탐/P17070.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17135/P17135$Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17135/P17135$Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17135/P17135.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17135/P17135.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17143_낚시왕_시뮬/P17143_DS$Shark.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17143_낚시왕_시뮬/P17143_DS$Shark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17143_낚시왕_시뮬/P17143_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17143_낚시왕_시뮬/P17143_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471_DS_bfs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p17471/P17471_DS_bfs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1915_가장큰정사각형_dp/P1915.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1915_가장큰정사각형_dp/P1915.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_SB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_SB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_보조강사님코드.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_보조강사님코드.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_보조강사님코드2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1987_알파벳_백트래킹/P1987_보조강사님코드2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p1991_트리_트리순회/P1991.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p1991_트리_트리순회/P1991.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2239$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2239$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2239.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2239.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2339_비트마스킹이용메모리절약$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2339_비트마스킹이용메모리절약$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2339_비트마스킹이용메모리절약.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2239_스도쿠_백트래킹/P2339_비트마스킹이용메모리절약.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2447_별찍기/P2447.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2447_별찍기/P2447.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2447_별찍기/P2447_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2447_별찍기/P2447_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2493_탑/P2493.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2493_탑/P2493.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2493_탑/P2493_Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2493_탑/P2493_Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2839_설탕공장_greedy/P2839.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2839_설탕공장_greedy/P2839.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p2839_설탕공장_greedy/P2839_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p2839_설탕공장_greedy/P2839_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p3109_빵집_백트래킹/P3109.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p3109_빵집_백트래킹/P3109.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p7576_토마토/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p7576_토마토/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p7576_토마토/P7576.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p7576_토마토/P7576.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/boj/p9663_Nqueen_백트래킹/P9663_DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/boj/p9663_Nqueen_백트래킹/P9663_DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/pr/Solution_구명보트.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/pr/Solution_구명보트.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/pr/Solution_오픈채팅방.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/pr/Solution_오픈채팅방.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/pr/Solution_올바른괄호.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/pr/Solution_올바른괄호.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/pr/Solution_올바른괄호2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/pr/Solution_올바른괄호2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/pr/Solution_카드뭉치.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/pr/Solution_카드뭉치.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P봉인된주문바탕화면에풀이영상$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P봉인된주문바탕화면에풀이영상$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P봉인된주문바탕화면에풀이영상.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P봉인된주문바탕화면에풀이영상.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P서버증설횟수$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P서버증설횟수$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P서버증설횟수.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P서버증설횟수.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P완전범죄$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P완전범죄$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P완전범죄.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P완전범죄.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P캐슬디펜스$Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P캐슬디펜스$Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P캐슬디펜스.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P캐슬디펜스.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P택배상자꺼내기$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P택배상자꺼내기$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P택배상자꺼내기.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/bin/p맨마지막수업때집중못했던거다시봐야할것/P택배상자꺼내기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/src/basic/array/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/basic/array/Array1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo/src/basic/bfsdfs/DFS_BFS_ArrayList_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/basic/bfsdfs/DFS_BFS_ArrayList_Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="32UaEbDy5cb3CABcDejBPCkLhet" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/project/ureca/JPABasic_1",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c98b75a-9935-45db-b350-a8ce49d3c05d" name="Changes" comment="" />
+      <created>1757477502815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757477502815</updated>
+      <workItem from="1757477504251" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -26,12 +26,16 @@ public class DFS_BFS_ArrayList_Test {
 		adjList.get(2).add(4);
 		adjList.get(3).add(1);
 		adjList.get(4).add(3);
-				
+		visit = new boolean[5];
+		dfs(1);
+		visit = new boolean[5];
+		System.out.println();
+		bfs(2);
 	}
 	
 	static void dfs(int v) {		
 		visit[v] = true;
-		System.out.println(v+ " -> ");
+		System.out.print(v+ " -> ");
 		
 		List<Integer> list = adjList.get(v);
 		
